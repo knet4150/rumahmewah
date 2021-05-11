@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Luas Rumah Sederhana
+    </title>
+    <style>:root{--border-radius:5px;--box-shadow:2px 2px 10px;--color:#118bee;--color-accent:#118bee15;--color-bg:#fff;--color-bg-secondary:#e9e9e9;--color-secondary:#0645AD;--color-secondary-accent:#920de90b;--color-shadow:#f4f4f4;--color-text:#000;--color-text-secondary:#999;--font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;--hover-brightness:1.2;--justify-important:center;--justify-normal:left;--line-height:1.5;--width-card:285px;--width-card-medium:460px;--width-card-wide:800px;--width-content:1080px}article aside{background:var(--color-secondary-accent);border-left:4px solid var(--color-secondary);padding:.01rem .8rem}body{background:var(--color-bg);color:var(--color-text);font-family:var(--font-family);line-height:var(--line-height);margin:0;overflow-x:hidden;padding:1rem 0}footer,header,main{margin:0 auto;max-width:var(--width-content);padding:0rem 1rem}hr{background-color:var(--color-bg-secondary);border:none;height:1px;margin:4rem 0}section{display:flex;flex-wrap:wrap;justify-content:var(--justify-important)}section aside{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);margin:1rem;padding:1.25rem;width:var(--width-card)}section aside:hover{box-shadow:var(--box-shadow) var(--color-bg-secondary)}section aside img{max-width:100%}[hidden]{display:none}article header,div header,main header{padding-top:0}header{text-align:var(--justify-important)}header a b,header a em,header a i,header a strong{margin-left:.5rem;margin-right:.5rem}header nav img{margin:1rem 0}section header{padding-top:0;width:100%}nav{align-items:center;display:flex;font-weight:700;justify-content:space-between;margin-bottom:7rem}nav ul{list-style:none;padding:0}nav ul li{display:inline-block;margin:0 .5rem;position:relative;text-align:left}nav ul li:hover ul{display:block}nav ul li ul{background:var(--color-bg);border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:none;height:auto;left:-2px;padding:.5rem 1rem;position:absolute;top:1.7rem;white-space:nowrap;width:auto}nav ul li ul li,nav ul li ul li a{display:block}code,samp{background-color:var(--color-accent);border-radius:var(--border-radius);color:var(--color-text);display:inline-block;margin:0 .1rem;padding:0 .5rem}details{margin:1.3rem 0}details summary{font-weight:700;cursor:pointer}h1,h2,h3,h4,h5,h6{line-height:var(--line-height)}mark{padding:.1rem}ol li,ul li{padding:.2rem 0}p{margin:.75rem 0;padding:0}pre{margin:1rem 0;max-width:var(--width-card-wide);padding:1rem 0}pre code,pre samp{display:block;max-width:var(--width-card-wide);padding:.5rem 2rem;white-space:pre-wrap}small{color:var(--color-text-secondary)}sup{background-color:var(--color-secondary);border-radius:var(--border-radius);color:var(--color-bg);font-size:xx-small;font-weight:700;margin:.2rem;padding:.2rem .3rem;position:relative;top:-2px}a{color:var(--color-secondary);display:inline-block;text-decoration:none}a:hover{filter:brightness(var(--hover-brightness));text-decoration:underline}a b,a em,a i,a strong,button{border-radius:var(--border-radius);display:inline-block;font-size:medium;font-weight:700;line-height:var(--line-height);margin:.5rem 0;padding:1rem 2rem}button{font-family:var(--font-family)}button:hover{cursor:pointer;filter:brightness(var(--hover-brightness))}a b,a strong,button{background-color:var(--color);border:2px solid var(--color);color:var(--color-bg)}a em,a i{border:2px solid var(--color);border-radius:var(--border-radius);color:var(--color);display:inline-block;padding:1rem}figure{margin:0;padding:0}figure img{max-width:100%}figure figcaption{color:var(--color-text-secondary)}button:disabled,input:disabled{background:var(--color-bg-secondary);border-color:var(--color-bg-secondary);color:var(--color-text-secondary);cursor:not-allowed}button[disabled]:hover{filter:none}form{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);box-shadow:var(--box-shadow) var(--color-shadow);display:block;max-width:var(--width-card-wide);min-width:var(--width-card);padding:1.5rem;text-align:var(--justify-normal)}form header{margin:1.5rem 0;padding:1.5rem 0}input,label,select,textarea{display:block;font-size:inherit;max-width:var(--width-card-wide)}input[type=checkbox],input[type=radio]{display:inline-block}input[type=checkbox]+label,input[type=radio]+label{display:inline-block;font-weight:400;position:relative;top:1px}input,select,textarea{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);margin-bottom:1rem;padding:.4rem .8rem}input[readonly],textarea[readonly]{background-color:var(--color-bg-secondary)}label{font-weight:700;margin-bottom:.2rem}table{border:1px solid var(--color-bg-secondary);border-radius:var(--border-radius);border-spacing:0;display:inline-block;max-width:100%;overflow-x:auto;padding:0;white-space:nowrap}table td,table th,table tr{padding:.4rem .8rem;text-align:var(--justify-important)}table thead{background-color:var(--color);border-collapse:collapse;border-radius:var(--border-radius);color:var(--color-bg);margin:0;padding:0}table thead th:first-child{border-top-left-radius:var(--border-radius)}table thead th:last-child{border-top-right-radius:var(--border-radius)}table thead th:first-child,table tr td:first-child{text-align:var(--justify-normal)}table tr:nth-child(even){background-color:var(--color-accent)}blockquote{display:block;font-size:x-large;line-height:var(--line-height);margin:1rem auto;max-width:var(--width-card-medium);padding:1.5rem 1rem;text-align:var(--justify-important)}blockquote footer{color:var(--color-text-secondary);display:block;font-size:small;line-height:var(--line-height);padding:1.5rem 0} article{padding: 1.25rem;}.v-cover{height: 480px; object-fit: cover;width: 100vw;cursor: pointer;}.v-image{height: 250px; object-fit: cover;width: 100vw;cursor: pointer;}.dwn-cover{max-height: 460px; object-fit: cover;}.w-100{width: 100vw}.search-box{color:#333;background-color:#f5f5f5;width:85%;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}.btn{display:inline-block;font-weight:400;color:#212529;text-align:center;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-color:transparent;border:1px solid transparent;border-top-color:transparent;border-right-color:transparent;border-bottom-color:transparent;border-left-color:transparent;padding:.375rem .75rem;margin:0.5rem;font-size:1rem;line-height:1.5;border-radius:.25rem;transition:color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out}.btn-danger{color:#fff;background-color:#dc3545;border-color:#dc3545}.btn-success{color:#fff;background-color:#28a745;border-color:#28a745}.btn-group-sm>.btn,.btn-sm{padding:.25rem .5rem;font-size:.875rem;line-height:1.5;border-radius:.2rem}
+</style>
+	<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Kang Hamdan"
+  },
+  "headline": "Luas Rumah Sederhana",
+  "datePublished": "2021-05-11",
+  "image": "https://i.pinimg.com/originals/cb/fc/e4/cbfce48d67ec301f25886acc22fdc875.jpg",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Gambar Desain Rumah",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=luas+rumah+sederhana",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<script type='text/javascript' src='//pl16164237.highperformancecpmnetwork.com/46/fc/8f/46fc8f0cb3be5e854f0e7f595f13a603.js'></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="/">
+            Luas Rumah Sederhana
+            </a>
+        </h1>
+        <p>
+                            Gambar Desain Rumah. Cari Gambar Desain Rumah? Cari Aja disini.
+                    </p>
+        <center>
+            <input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+            <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4526973,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img src="//sstatic1.histats.com/0.gif?4526973&amp;101" alt="free counter with statistics" border="0" /></a></noscript>
+<!-- Histats.com  END  -->        </center>
+    </header>
+    <main>
+        <article>
+    <p><strong>Luas Rumah Sederhana</strong>. Dalam video di saluran YouTube Isda Family dengan judul Lebaran Idul Adha ke Indramayu yang tayang 11 Agustus 2020 lalu Iis pernah memperlihatkan huniannya di kampung halaman. Meski terlihat sederhana namun rumah Iis ini sangat luas.</p>
+            <figure>
+        <img class="v-cover ads-img" src="https://i.pinimg.com/564x/90/1b/54/901b548a62e1c18801b9b9fe46300efa.jpg" alt="Desain Rumah 6 X 7 M Satu Lantai Dgn 2 Kamar Youtube Rumah Desain Rumah Rumah Minimalis" style="width: 100%; padding: 5px; background-color: grey;"  onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh423ePlL6NOJkEZRSZ8s7F58ofYQu4uPVwAAOk2BuQbaq4I3AKqG1SY94M8IHhEJBtl4';">
+        <figcaption>Desain Rumah 6 X 7 M Satu Lantai Dgn 2 Kamar Youtube Rumah Desain Rumah Rumah Minimalis from www.pinterest.com</figcaption>
+    </figure>
+        <p>
+        Desain rumah minimalis luas tanah 72m2 luas bangunan 55m2 kamar tidur dua kamar mandi 1 dapur taman depan belakang samping carport pagar spek tiga juta meter khusus daerah bekasi sekitarnya. Model Rumah Sederhana Tipe 45. Rumah tipe 36 ini dapat dibangun di atas tanah seluas 60 m2 atau 72 m2.
+    </p>
+    <h3>Dengan luas lahan yang sedemikian kecilnya maka tidak memungkinkan bagi warga untuk memperluas bangunannya ke arah horisontal sehingga hampir semua.</h3>
+    <p>Biasanya rumah dengan desain ini masih menyatukan ruang tamu dengan ruang keluarga cukup hanya di sekat oleh tirai atau sekat kayu yang dapat dibongkar sewaktu waktu. Lahan yang ada di Indonesia semakin sempit bayangkan saja setiap harinya ada jutaan orang yang lahir. Rumah kecil sederhana ini bukan kecil dalam artian rumah yang sempit namun lebih karena menggunakan desain yang sangat sederhana. Meskipun Indonesia merupakan Negara dengan luas yang keterlaluan tetapi jangan salah karena saat ini pertumbuhan bangunannya sangat pesat.</p>
+</article>
+
+<section>
+
+    <aside>
+        <img class="v-image ads-img" alt="Model Rumah Sederhana Dan Cantik Rumah Minimalis Rumah Desain Rumah" src="https://i.pinimg.com/originals/08/cc/a5/08cca591d93e35722e82608a0dfa82fb.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVxOMSMWiovWX658TgQ2Ck3BRoFWNnQdGjibVtsd9c9QxrsrXwO57vhZslHOK58ql3c4';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Kebutuhan minimum ruangan pada rumah sederhana sehat perlu memperhatikan beberapa ketentuan sebagai berikut.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Denah Rumah Minimalis Satu Lantai Luas 144m2 4 Kamar Tidur Denah Rumah Rumah Minimalis Rumah" src="https://i.pinimg.com/originals/e3/b1/c0/e3b1c05408b793f1c90540bfa81bf3e0.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP1lT_0hoPXenp3mJ4r3B7vQygAS327OgEgue49ntUz-MD12xrqwPCEX_5_-SQRqLZO04';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Rumah idaman sederhana di desa.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Pin Di Desain Rumah Minimalis" src="https://i.pinimg.com/originals/cb/fc/e4/cbfce48d67ec301f25886acc22fdc875.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAOAShehCUd2yZGRc6QVLcUYvo_qvzuH3HVzErFFhONgqBCAdgLFdniYXW8WlU7v99XKI';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Rumah sederhana dengan halaman luas.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Rumah 1 Lantai Minimalis Modern Luas Bangunan Rumah Tinggal 400 M2 Berdiri Diatas Lahan Yang Cukup Luas Dengan Fasa Desain Rumah Rumah Rumah Minimalis" src="https://i.pinimg.com/originals/88/69/03/886903a40f479059b68b523bb5754f09.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpT40T0Xwex9gRDR5qqKCc6LOkVXx4AEa9Wc25DG5XN22SAYGtE-aQXxBbXl-QgsM0Xf0';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>30 Gambar Rumah Sederhana Tapi Terkesan Mewah.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Rumah Tipe 110 220 Ukuran Tanah Arsitektur Rumah Rumah Minimalis Rumah Modern" src="https://i.pinimg.com/originals/0e/e0/0c/0ee00c4cd6d222614651f6260fd63d42.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNChkNpPAXR8Q3wPVRa_3NNWDImFzobVqZfuwV8jwSJ0sVTzek7uk3ziV0DcE8qcpFFtk';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Di rumahnya itu ada banyak sekali kamar.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Fantastic Tricks Can Change Your Life French Minimalist Decor High Ceilings Minimalist Living Room Design Pa House Design Modern House Plans Home Design Plans" src="https://i.pinimg.com/474x/b5/9b/21/b59b2100454a2b960381751d0729fc4f.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ58v7pQfNNPQggGEicUlgJLARUhDLctBrAvaKV3pFc8yNswucuXxHF23fTsxU-WCambyc';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Dan kenyamanan ruang gerak menghasilkan kebutuhan ruang dan luas minimal rumah sederhana adalah 4756 m² atau 1189 m²jiwa.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Foto Denah Rumah Minimalis 2 Lantai Sederhana Dengan Gaya Modern Type 45 Desain Rumah 2 Lantai Rumah Minimalis Denah Rumah" src="https://i.pinimg.com/originals/af/15/2b/af152b3fe66b8d36a05962c80e28fc52.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsfSupSh56Cuhk3HfbmS2FHTFnrlCpSlFxEsgR0t4aRcCtxACElcC-aa7zkOCNIEp6h3Y';" />
+        <small>Source: www.pinterest.com</small>
+                    <p>Model rumah sederhana yang memiliki luas bangunan 45 m² cocok untuk dihuni keluarga kecil yang memiliki satu atau dua orang anak.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Denah Rumah Dua Lantai Dengan Luas Lahan 148m2 Luas Total Bangunan 70m2 Ukuran Tanah 6m X 12m Luas Lahan 72 Desain Depan Rumah Denah Rumah Rumah Arsitektur" src="https://i.pinimg.com/originals/1c/f5/6f/1cf56fb0ad0acd09602ff8600f9f57fa.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOIzJJC6RFXufodkKClZ-qeQ6nmaakzKSt62pVvNxj0DCkP4YbrMH-nseLDTxqlP734QE';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Ruang Keluarga Ruang Tamu Garasi Mobil Dapur Halaman depan belakang.</p>
+    </aside>
+
+    <aside>
+        <img class="v-image ads-img" alt="Desain Minimalis Di Instagram Desain Rumah Minimalis Ukuran Tanah 10m X 20m Dengan Luas Bangunan 113 M Da Denah Rumah Pedesaan Desain Rumah Minimalis Rumah" src="https://i.pinimg.com/originals/fd/80/10/fd80108e8268b7868c370f9963a1d39b.jpg" width="100%" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSL7Z8-lwT33eUfW8TrfBHwUupCUQpNb4uz_CtVW3zByPf2eY7UGzF7UjUpwl939ZfuANQ';" />
+        <small>Source: id.pinterest.com</small>
+                    <p>Rumah dengan dua pilar.</p>
+    </aside>
+</section>
+<section>
+    <article>
+        <p>
+                                
+                            <a href="/rumah-sederhana-indah.html"><i>&larr; rumah sederhana indah</i></a>
+                                                                    
+                                        <a href="/rumah-minimalis-sederhana-dari-kayu.html"><i>rumah minimalis sederhana dari kayu &rarr;</i></a>
+                                        </p>
+    </article>
+</section>
+		<center>
+			<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>		</center>
+    </main>
+    <footer style="padding-top: 50px;">
+        <center>
+                            <a href="/p/dmca.html">Dmca</a>
+                            <a href="/p/contact.html">Contact</a>
+                            <a href="/p/privacy-policy.html">Privacy Policy</a>
+                            <a href="/p/copyright.html">Copyright</a>
+                    </center>
+    </footer>
+    <script type='text/javascript' src='//pl16217656.highperformancecpmnetwork.com/67/ee/79/67ee79b0d4bcd736fa718802dc4878c9.js'></script>
+            <script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+
+</html>
